@@ -1,0 +1,69 @@
+header{
+    height: 13vh;
+    width: 100%;
+    background-color: #373939;
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+.nav-sign li{
+    font-size: 20px;
+    font-weight:600;
+    margin: 5px;
+
+}
+.nav-sign li span{
+    color: #fff;
+    padding: 10px 15px;
+    border:.5px solid #fff;
+    border-radius: 10px 0 10px 0;
+
+  background: linear-gradient(45deg,red, rgb(62, 40, 40),black,rgb(4, 4, 4),white);
+
+}
+.nav-sign li a{
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 1px solid rgb(10, 10, 10);
+    color: black;
+    background-color: rgb(20, 238, 224);
+    border-radius: 10px 0 10px 0;
+}
+.nav-sign li a:hover{
+    color:white;
+     background: linear-gradient(45deg, rgb(138, 138, 180),black);
+     border:1px solid white;
+     border-radius: 10px 0 10px 0;
+    }
+.nav-sign{
+    display: flex;
+}
+.nav-menu{
+    margin-right: 100px;
+
+    display: flex;
+    color: white;
+}
+.nav-menu li{
+    font-size: 20px;
+    font-weight:600;
+    margin: 5px;
+    margin-left: 15px;
+
+}
+.nav-menu li a{
+    color: #fff;
+    text-decoration: none;
+}
+.logo h2{
+    color: #fff;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+letter-spacing: .1rem;
+font-size: 1.7rem;}

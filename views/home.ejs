@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+    <link rel="shortcut icon" href="/images/bruno-mars.jpg" type="image/x-icon">
+
+</head>
+<body>
+    
+    <p>this page can't loaded css</p>
+<h1>
+    codial/ <%= title%> 
+
+</h1>
+
+<section id="feed-posts">
+    <h4>Posts</h4>
+<form action="/posts/create" id="new-post-form" method="POST">
+    <textarea name="content" id="" cols="40" rows="4" placeholder="type somthing......."></textarea>
+    <input type="submit" value="post">
+</form>
+</section>
+
+
+
+</body>
+</html>

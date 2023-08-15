@@ -1,0 +1,33 @@
+<header>
+<div class="logo">
+    <h2>Codial</h2>
+
+</div>
+
+
+
+<ul>
+<div class="nav-menu">
+    <li><a href="http://localhost:5000/">Home</a></li>
+
+    <li><a href="http://localhost:5000/users/profile">Profile</a></li>
+    <li><a href="#">Contant</a></li>
+    <li><a href="#">Post</a></li>
+    <li><a href="#">About</a></li>
+</div>
+
+         
+<div class="nav-sign">
+    
+    <% if (locals.user) {%>
+        <li><span><i class="fa fa-user">  </i>    <%=user.name%></span></li>
+        <li><a href="/users/sign-out">Log out</a></li>
+        <%} else  {%>
+           <li><a href="/users/sign-in">Log in </a></li>
+           <li><a href="/users/sign-up">sign up</a></li>
+
+        <%}%>
+</div>
+</ul>
+
+</header>
